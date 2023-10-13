@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #FAFAFA;
+  margin: auto;
+}
+body .container {
+  max-width: 1445px;
+  margin: auto;
+  overflow: hidden;
+}
+body .container > .shakl {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+body .container > .shakl > .shakl1 {
+  width: 400px;
+  height: 710px;
+  background: #c170c5;
+  border-radius: 0 0 194px 194px;
+  transform: translate(-37px, 0px);
+}
+body .container > .shakl > .shakl2 {
+  border-radius: 221px 221px 0 0;
+  width: 500px;
+  height: 710px;
+  background: #F7F5FA;
+  transform: translate(140px, 160px);
+}
+body .container > .telefon {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  transform: translate(265px, -828px);
+}
+body .container > .telefon > .telefon-img {
+  padding: 20px;
+  overflow: hidden;
+  background: #fff;
+  width: 400px;
+  height: 700px;
+  border-radius: 40px;
+}
+body .container > .telefon > .telefon-img > .tel1 {
+  background: linear-gradient(to right, #9038FF, #E344FF);
+  width: 100%;
+  height: 80px;
+  border-radius: 20px 20px 5px 5px;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-white {
+  background: #fff;
+  width: 200px;
+  height: 30px;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-tepasi {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-tepasi > i {
+  color: #fff;
+  font-size: 20px;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-tepasi > .bitta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-tepasi > .bitta > i {
+  color: #fff;
+  font-size: 20px;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-tepasi > .bitta > img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  outline: auto;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-tepasi > .bitta > .text h6 {
+  color: #fff;
+  font-size: 16px;
+  font-family: Rubik;
+  font-weight: 500;
+}
+body .container > .telefon > .telefon-img > .tel1 > .tel-tepasi > .bitta > .text p {
+  font-size: 10px;
+  color: #E180FF;
+  font-family: Rubik;
+}
+body .container > .telefon > .telefon-img > .message {
+  background: #FAFAFA;
+  width: 360px;
+  height: 580px;
+  padding-top: 10px;
+  border-radius: 0 0 30px 30px;
+}
+body .container > .telefon > .telefon-img > .message > .message1 {
+  background: #EDE5F4;
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  color: #AD8CC1;
+  border-radius: 20px 20px 20px 6px;
+  text-align: left;
+  padding: 10px;
+  font-size: 13px;
+  font-family: Rubik;
+}
+body .container > .telefon > .telefon-img > .message > .message2 {
+  font-size: 13px;
+  background: #EDE5F4;
+  width: 200px;
+  height: 50px;
+  margin: 10px;
+  color: #AD8CC1;
+  border-radius: 20px 20px 20px 6px;
+  text-align: left;
+  padding: 10px;
+  font-family: Rubik;
+}
+body .container > .telefon > .telefon-img > .message > .img-dog {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 180px;
+}
+body .container > .telefon > .telefon-img > .message > .img-dog > img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+body .container > .telefon > .telefon-img > .message > .message3 {
+  font-size: 13px;
+  width: 200px;
+  height: 50px;
+  margin: 10px 0 0 150px;
+  background: #ffffff;
+  border-radius: 20px 20px 6px 20px;
+  text-align: left;
+  padding: 11px;
+  font-family: Rubik;
+}
+body .container > .telefon > .telefon-img > .message > .message4 {
+  font-size: 13px;
+  width: 140px;
+  height: 36px;
+  margin: 10px 0 0 210px;
+  background: #ffffff;
+  border-radius: 20px 20px 6px 20px;
+  text-align: left;
+  padding: 12px;
+  font-family: Rubik;
+}
+body .container > .telefon > .telefon-img > .message > .message5 {
+  font-size: 13px;
+  background: #EDE5F4;
+  width: 200px;
+  height: 65px;
+  margin: 12px 10px;
+  color: #AD8CC1;
+  border-radius: 20px 20px 20px 6px;
+  text-align: left;
+  padding: 10px;
+  font-family: Rubik;
+}
+body .container > .telefon > .telefon-img > .message > .message6 {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: 10px;
+  gap: 70px;
+  border-radius: 20px 20px 20px 6px;
+  background: linear-gradient(to right, #E344FF, #9038FF);
+  width: 260px;
+  height: 50px;
+  padding: 10px;
+}
+body .container > .telefon > .telefon-img > .message > .message6 > .circle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .container > .telefon > .telefon-img > .message > .message6 > .circle > i {
+  color: #E959FF;
+  font-size: 20px;
+}
+body .container > .telefon > .telefon-img > .message > .message6 > .circle p {
+  color: #FFB8FF;
+  font-family: Rubik;
+  font-size: 12px;
+}
+body .container > .telefon > .telefon-img > .message > .message6 > h6 {
+  font-family: Rubik;
+  font-size: 20px;
+  color: #FFF4FF;
+}
+body .container > .telefon > .telefon-img > .message > .message7 {
+  margin-top: 13px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  gap: 90px;
+  border-radius: 20px 20px 20px 6px;
+  background: linear-gradient(to right, #E344FF, #9038FF);
+  width: 260px;
+  height: 50px;
+  padding: 10px;
+}
+body .container > .telefon > .telefon-img > .message > .message7 > .circle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+body .container > .telefon > .telefon-img > .message > .message7 > .circle > i {
+  color: #E959FF;
+  font-size: 20px;
+}
+body .container > .telefon > .telefon-img > .message > .message7 > .circle p {
+  color: #FFB8FF;
+  font-family: Rubik;
+  font-size: 12px;
+}
+body .container > .telefon > .telefon-img > .message > .message7 > h6 {
+  font-family: Rubik;
+  font-size: 20px;
+  color: #FFF4FF;
+}
+body .container > .telefon > .telefon-img > .message > .message-input {
+  margin: 15px 10px;
+  width: 340px;
+  height: 60px;
+  border-radius: 30px;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px 10px 17px;
+}
+body .container > .telefon > .telefon-img > .message > .message-input > input {
+  width: 200px;
+  border: none;
+  outline: none;
+}
+body .container > .telefon > .telefon-img > .message > .message-input > .circle {
+  background: #39224E;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding: 17px;
+}
+body .container > .telefon > .telefon-img > .message > .message-input > .circle i {
+  color: #fff;
+  font-size: 18px;
+}
+body .container > .telefon > .telefon-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+body .container > .telefon > .telefon-text h3 {
+  color: #39224E;
+  font-size: 37px;
+  font-family: Rubik;
+  font-weight: 700;
+}
+body .container > .telefon > .telefon-text p {
+  color: #A8A6A9;
+  font-family: Rubik;
+  font-size: 18px;
+}/*# sourceMappingURL=main.css.map */
